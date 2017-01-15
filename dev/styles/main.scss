@@ -1,6 +1,7 @@
-@import 'setup';
 
-.container {
-	max-width: 900px;
-	margin: 0 auto;
-}
+// ------------ MANIFEST ------------
+
+@import 'setup';
+@import 'globals';
+@import 'book-tile';
+@import 'books';

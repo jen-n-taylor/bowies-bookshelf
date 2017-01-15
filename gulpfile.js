@@ -8,8 +8,6 @@ const autoprefixer = require('gulp-autoprefixer');
 const browserSync = require('browser-sync').create();
 const reload = browserSync.reload;
 
-
-
 gulp.task('styles', () => {
   return gulp.src('./dev/styles/**/*.scss')
     .pipe(sass().on('error', sass.logError))
@@ -37,7 +35,7 @@ gulp.task('scripts', () => {
 
 gulp.task('browser-sync', () => {
   browserSync.init({
-    server: './public'
+    server: './'
   })
 });
 

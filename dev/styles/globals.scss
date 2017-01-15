@@ -1,0 +1,29 @@
+// ----------- GLOBALS -----------
+
+// FONTS ------------------------
+
+@import url('https://fonts.googleapis.com/css?family=Bentham|Open+Sans:300,400,600,700');
+
+$font-a: 'Bentham', serif;
+$font-b: 'Open Sans', sans-serif;
+
+// COLOURS -----------------------
+
+$color-black: #333;
+$color-seagreen: #84B59F;
+
+// STYLES ------------------------
+
+html {
+  font-size: 100%;
+  font-family: $font-a;
+  color: $color-black;
+}
+
+body {
+  margin: 20px;
+}
+
+.container {
+
+}

@@ -1,0 +1,33 @@
+// ------------ BOOK TILE -----------
+
+.book-tile {
+  padding: 30px;
+}
+
+// NUMBER --------------------
+
+.number {
+  display: flex;
+  align-items: center;
+
+  span {
+    font-size: 5rem;
+    font-family: $font-b;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
+}
+
+.bowie-svg {
+  height: 100px;
+  width: 80px;
+  display: inline-block;
+  margin-left: -18px;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+// TITLE ----------------------
